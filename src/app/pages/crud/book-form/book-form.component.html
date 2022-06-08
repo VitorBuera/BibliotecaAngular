@@ -1,0 +1,38 @@
+<h1 align="center" mat-dialog-title>Novo Cadastro</h1>
+<section class="wrapper">
+  <mat-card-content>
+    <form  [formGroup]="form">
+      <table cellspacing="0">
+        <tr>
+          <td>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Nome:</mat-label>
+              <input type="text" formControlName="name" required [(ngModel)]="books.name" name="name" matInput placeholder="Lord of Rings">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Autor:</mat-label>
+              <input type="text" matInput formControlName="author" required [(ngModel)]="books.author" name="author" placeholder="J.R.R Tolkien">
+            </mat-form-field>
+          </td>
+        </tr>
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Descrição:</mat-label>
+          <textarea type="text" formControlName="description" required matInput [(ngModel)]="books.description" name="description"
+            placeholder="Bla bla bla"></textarea>
+        </mat-form-field>
+        <div class="file">
+          <input type="file" required (change)="salvarFoto($event)">
+          <img *ngIf="base64?.length > 0" mat-card-sm-image [src]="base64">
+        </div>
+      </table>
+    </form>
+  </mat-card-content>
+</section>
+<div mat-dialog-actions align="end">
+  <button mat-button [mat-dialog-close]="true">Cancelar</button>
+  <button mat-button type="submit" [disabled]="!form.valid" (click)="onSubmit()">Salvar</button>
+</div>

@@ -1,0 +1,29 @@
+.wrapper {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.text {
+  word-wrap: normal;
+}
+
+.card {
+  margin-bottom: 8px;
+}
+
+.mat-alugar {
+  background-color: rgb(0, 60, 128);
+  color: #fff;
+}
+
+.mat-devolver {
+  background-color: rgb(0, 128, 4);
+  color: #fff;
+}
+
+.pic{
+  width: 80px;
+  height: 80px;
+}

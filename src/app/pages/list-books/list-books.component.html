@@ -1,0 +1,25 @@
+<section class="wrapper">
+    <div>
+    <mat-card class="card">
+        <mat-card-title-group>
+          <p hidden>{{ booksInput?.id }}</p>
+          <mat-card-title class="text"><p>{{ booksInput?.name }}</p></mat-card-title>
+        </mat-card-title-group>
+            <img class="pic" mat-card-sm-image [src]="booksInput?.imgPath" >
+        <mat-card-content *ngIf="expandir">
+          <mat-card-subtitle>{{ booksInput?.autor }}</mat-card-subtitle>
+              {{ booksInput?.description }}
+              <mat-card-actions *ngIf="booksInput?.rented == 0">
+                <button mat-raised-button color="alugar" (click)="hireBook(booksInput.id)">Alugar</button>
+              </mat-card-actions>
+              <mat-card-actions *ngIf="booksInput?.rented == 1">
+                <button mat-raised-button color="devolver" (click)="hireBook(booksInput.id)">Devolver</button>
+              </mat-card-actions>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-icon-button color="danger" (click)="expandirLivro(false)">
+                <mat-icon>arrow_right</mat-icon></button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+</section>

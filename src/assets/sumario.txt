@@ -1,0 +1,1 @@
+tipoUsuario 1 = normal, 999 = mestre

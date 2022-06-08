@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "imgPath":"assets/img/orgulhoPreconceito.jpg",
+      "name": "Orgulho e Preconceito",
+      "author": "Jane Austen",
+      "description": "Poucas histórias de amor se comparam ao clássico da literatura inglesa Orgulho e Preconceito. Quando Elizabeth Bennett conhece o senhor Darcy, de início eles se odeiam. Mas, através de várias aventuras, cada um vai descobrir o bom carácter do outro. Mesmo assim, será que conseguem largar o orgulho (e o preconceito) para admitir o que sentem?",
+      "rented": "0"
+    },
+    {
+      "id": "2",
+      "imgPath": "assets/img/1984.jpg",
+      "name": "1984",
+      "author": "George Orwell",
+      "description": "Em um país controlado por um regime totalitário, um homem vai se rebelar contra o sistema. Mas cada ação e até cada pensamento dele está sendo vigiado… Escrito em 1948, esse livro é quase profético sobre os perigos modernos da vigilância do Estado, da alteração da História e da criação de fake news.",
+      "rented": "0"
+    },
+    {
+      "id": "3",
+      "imgPath": "assets/img/pequenoPrincipe.jpg",
+      "name": "O Pequeno Príncipe",
+      "author": "Antoine de Saint-Exupéry",
+      "description": "O Pequeno Príncipe analisa questões profundas sobre a vida humana. O príncipe da história vive em um pequeno planeta, onde cuida de um rosa. Quando decide visitar outros planetas, aprende o valor do amor e da criatividade.",
+      "rented": "0"
+    },
+    {
+      "id": "4",
+      "imgPath": "assets/img/euRobo.jpg",
+      "name": "Eu, Robô",
+      "author": "Isaac Asimov",
+      "description": "E se toda inteligência artificial fosse programada com 3 leis para proteger a humanidade? Essa é a ideia central desta série de contos de Isaac Asimov, que tem inspirado cientistas pelo mundo inteiro. Em um futuro não tão distante, a inteligência artificial é real mas as 3 Leis da Robótica nem sempre funcionam como esperado…",
+      "rented": "0"
+    },
+    {
+      "id": "5",
+      "imgPath": "assets/img/domCasmurro.jpg",
+      "name": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "description": "A história se centra na vida de Bento Santiago, que ganhou o apelido de Casmurro. Bento se apaixona e casa com uma mulher pobre chamada Capitu, mas começa a desconfiar de sua infidelidade.",
+      "rented": "0"
+    },
+    {
+      "id": "6",
+      "imgPath": "assets/img/senhorAneis.jpg",
+      "name": "O Senhor dos Anéis",
+      "author": "J. R. R. Tolkien",
+      "description": "Acompanhe a história de Frodo, um humilde hobbit que tem a missão de destruir o Anel do Poder, para salvar seu mundo da destruição. Rico em detalhes e línguas inventadas, O Senhor dos Anéis transformou a literatura fantástica.",
+      "rented": "0"
+    },
+    {
+      "id": "7",
+      "imgPath": "assets/img/guerraPaz.jpg",
+      "name": "Guerra e Paz",
+      "author": "Leo Tolstói",
+      "description": "Se prepare mentalmente, porque este livro é gigante! A obra-prima de Tolstói conta a história de 5 famílias aristocráticas na Rússia e como foram afetadas pela invasão de Napoleão. Entre intrigas, romances, batalhas e surpresas, esse livro é um verdadeiro épico da literatura russa.",
+      "rented": "0"
+    },
+    {
+      "id": "8",
+      "imgPath": "assets/img/odisseia.jpg",
+      "name": "Odisseia",
+      "author": "Homero",
+      "description": "O clássico poema épico de Homero é sem sombra de dúvidas uma literatura fundamental para quem gostaria de ler as obras mais importantes já escritas do mundo. Esta é a continuação da Ilíada, escrita também pelo autor grego. Em Odisseia, Homero relata o regresso de Odisseu, ou Ulisses, para Ítaca após a guerra de Tróia.",
+      "rented": "0"
+    },
+    {
+      "id": "9",
+      "imgPath": "assets/img/aDivinaComedia.jpg",
+      "name": "A Divina Comédia",
+      "author": "Dante Alighieri",
+      "description": " livro que inspirou milhares de obras de arte desde seu lançamento entre 1304 e 1321, A Divina Comédia é dividida em três partes: o inferno, o purgatório e o paraíso.O poema de caráter épico e teológico toca em assuntos relativos à espiritualidade e a alma humana. Ele é um dos mais importantes textos italianos já escritos e continua sendo uma fonte de inspiração para diversos meios artísticos.",
+      "rented": "0"
+    },
+    {
+      "id": "10",
+      "imgPath": "assets/img/gracaInfinita.jpg",
+      "name": "Graça Infinita",
+      "author": "David Foster Wallace",
+      "description": "O título do livro se refere à um filme que, quando assistido, faz com que as pessoas não consigam parar de vê-lo e consequentemente morrem. A fita começa a ser utilizada como arma de guerra e os mistérios por trás dos personagens do filme e da família do cineasta são aos poucos desvendados ao longo da história.",
+      "rented": "0"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<app-toolbar></app-toolbar>
+<section>
+  <div class="search">
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Pesquisar</mat-label>
+      <input type="search" matInput [formControl]="queryField" placeholder="Ex. Harry Potter">
+      <button matSuffix mat-icon-button aria-label="search" (click)="onSearch()">
+        <mat-icon>search</mat-icon>
+      </button>
+    </mat-form-field>
+  </div>
+   <div class="list">
+    <app-list-books *ngFor="let book of books" [booksInput]="book"></app-list-books>
+  </div>
+  <mat-paginator aria-label="Select page" [pageSizeOptions]="pageSizeOptions" [pageSize]="pageSize" [length]="length" (page)="changePage($event)">
+  </mat-paginator>
+
+</section>
