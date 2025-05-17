@@ -1,0 +1,22 @@
+{ 
+    "items": [
+      {
+        "id": "1",
+        "login": "a@a.com",
+        "pass": "123",
+        "tipoUsuario": "999"
+      },
+      {
+        "id": "2",
+        "login": "b@a.com",
+        "pass": "123",
+        "tipoUsuario": "1"
+      },
+      {
+        "id": "3",
+        "login": "c@a.com",
+        "pass": "123",
+        "tipoUsuario": "1"
+      }
+    ]
+  }

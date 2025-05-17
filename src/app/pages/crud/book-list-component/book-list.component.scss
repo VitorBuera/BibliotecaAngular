@@ -1,0 +1,22 @@
+.wrapper {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.card {
+  max-width: 400px;
+  margin-bottom: 8px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.mat-alugar {
+  background-color: rgb(0, 60, 128);
+  color: #fff;
+}
+.mat-devolver {
+  background-color: rgb(0, 128, 4);
+  color: #fff;
+}
