@@ -3,11 +3,11 @@
         <mat-card class="card-login">
           <mat-card-title></mat-card-title>
           <form [formGroup]="frmLogin" novalidate>
-          <img mat-card-image src="../../../assets/img/login.png">
+          <img mat-card-image src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg">
             <mat-card-content class="conteudo-login">
               <mat-form-field appearance="outline" >
                 <mat-label>Email</mat-label>
-                <input type="email" matInput formControlName="email" placeholder="Ex. perukas@example.com">
+                <input type="email" matInput formControlName="email" placeholder="Login teste: b@a.com">
                 <mat-error *ngIf="frmLogin.get('email')?.hasError('email') && frmLogin.get('email')?.touched">
                   Por favor informe um email válido </mat-error>
                 <mat-error *ngIf="frmLogin.get('email')?.hasError('required') && frmLogin.get('email')?.touched">
@@ -15,7 +15,7 @@
               </mat-form-field>
               <mat-form-field appearance="outline">
                 <mat-label>Senha</mat-label>
-                <input type="password" matInput formControlName="pass">
+                <input type="password" matInput formControlName="pass" placeholder="Senha teste: 123">
                 <mat-error *ngIf="frmLogin.get('pass')?.hasError('required')"> Senha é <strong>obrigatória</strong> </mat-error>
               </mat-form-field>
             </mat-card-content>
